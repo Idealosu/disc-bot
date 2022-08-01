@@ -43,4 +43,5 @@ client.on('interactionCreate', async interaction => {
 	}
 });
 
-client.login('MTAwMzAxMjgyMTQyNjEyNjg5OA.GFa9hU.mcqLttR4sExOtTi617HH9XmdmNDFDEqIfk1Rj4');
+const config = require("./config.json");
+client.login(config.token);
